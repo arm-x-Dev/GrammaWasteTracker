@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">GramaWaste</string>
+    <string name="tagline">Clean Village. Smart Collection.</string>
+    
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="name">Full Name</string>
+    <string name="role_resident">Resident</string>
+    <string name="role_driver">Driver</string>
+    
+    <!-- Resident Strings -->
+    <string name="report_garbage">Report Garbage</string>
+    <string name="capture_photo">Capture Photo</string>
+    <string name="submit_report">Submit Report</string>
+    <string name="report_submitted">Report submitted! Waiting for driver...</string>
+    <string name="track_driver">Track Driver</string>
+    <string name="driver_away">Driver is %1$d metres away</string>
+    <string name="vehicle_nearby">🚛 Vehicle is nearby!</string>
+    <string name="no_active_pickup">No active pickup. Report garbage to get started.</string>
+    <string name="searching_for_driver">Report submitted. Waiting for driver...</string>
+    
+    <!-- Driver Strings -->
+    <string name="start_duty">Start Duty</string>
+    <string name="end_duty">End Duty</string>
+    <string name="mark_collected">Mark as Collected</string>
+    <string name="navigate">Navigate</string>
+    
+    <!-- FCM -->
+    <string name="notification_title">🚛 The Kachara Gaadi is almost here!</string>
+    <string name="notification_body">Please bring your garbage out.</string>
+
+    <!-- Navigation & UI -->
+    <string name="reports">Reports</string>
+    <string name="my_location">My Location</string>
+    <string name="history">History</string>
+    <string name="menu">Menu</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="role_resident_upper">RESIDENT</string>
+    <string name="role_driver_upper">DRIVER</string>
+    <string name="report_details">Report Details</string>
+    
+    <!-- Status -->
+    <string name="status_on_duty">Status: On Duty</string>
+    <string name="status_off_duty">Status: Off Duty</string>
+    <string name="status_pending">Pending</string>
+    <string name="status_collected">Collected</string>
+    <string name="searching_location">Searching for location...</string>
+    <string name="waiting_gps">Waiting for GPS signal...</string>
+    <string name="waste_truck">Waste Truck</string>
+    <string name="your_assigned_driver">Your Assigned Driver</string>
+    <string name="your_location">Your Location</string>
+    <string name="location_coordinates">Location Coordinates</string>
+    <string name="open_in_maps">Open in Google Maps</string>
+    <string name="back_to_history">Back to History</string>
+    <string name="default_user_name">Resident User</string>
+    <string name="default_driver_name">Driver User</string>
+</resources>

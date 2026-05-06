@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">ಗ್ರಾಮ-ವೇಸ್ಟ್</string>
+    <string name="tagline">ಸ್ವಚ್ಛ ಗ್ರಾಮ. ಚತುರ ಸಂಗ್ರಹಣೆ.</string>
+    
+    <!-- Auth -->
+    <string name="login">ಲಾಗಿನ್</string>
+    <string name="register">ನೋಂದಾಯಿಸಿ</string>
+    <string name="email">ಇಮೇಲ್</string>
+    <string name="password">ಪಾಸ್‌ವರ್ಡ್</string>
+    <string name="name">ಪೂರ್ಣ ಹೆಸರು</string>
+    <string name="role_resident">ನಿವಾಸಿ</string>
+    <string name="role_driver">ಚಾಲಕ</string>
+    
+    <!-- Resident Strings -->
+    <string name="report_garbage">ಕಸದ ವರದಿ ಮಾಡಿ</string>
+    <string name="capture_photo">ಫೋಟೋ ತೆಗೆಯಿರಿ</string>
+    <string name="submit_report">ವರದಿಯನ್ನು ಸಲ್ಲಿಸಿ</string>
+    <string name="report_submitted">ವರದಿ ಸಲ್ಲಿಸಲಾಗಿದೆ! ಚಾಲಕರಿಗಾಗಿ ಕಾಯಲಾಗುತ್ತಿದೆ...</string>
+    <string name="track_driver">ಚಾಲಕನ ಟ್ರ್ಯಾಕಿಂಗ್</string>
+    <string name="driver_away">ಚಾಲಕ %1$d ಮೀಟರ್ ದೂರದಲ್ಲಿದ್ದಾರೆ</string>
+    <string name="vehicle_nearby">🚛 ಗಾಡಿ ಹತ್ತಿರದಲ್ಲಿದೆ!</string>
+    <string name="no_active_pickup">ಯಾವುದೇ ಸಕ್ರಿಯ ಪಿಕಪ್ ಇಲ್ಲ. ಪ್ರಾರಂಭಿಸಲು ಕಸ ವರದಿ ಮಾಡಿ.</string>
+    <string name="searching_for_driver">ವರದಿ ಸಲ್ಲಿಸಲಾಗಿದೆ. ಚಾಲಕರಿಗಾಗಿ ಕಾಯಲಾಗುತ್ತಿದೆ...</string>
+    <string name="locate_me">ನನ್ನ ಸ್ಥಳ ಪತ್ತೆಹಚ್ಚಿ</string>
+    
+    <!-- Driver Strings -->
+    <string name="start_duty">ಕೆಲಸ ಪ್ರಾರಂಭಿಸಿ</string>
+    <string name="end_duty">ಕೆಲಸ ಮುಗಿಸಿ</string>
+    <string name="mark_collected">ಸಂಗ್ರಹಿಸಲಾಗಿದೆ</string>
+    <string name="navigate">ದಾರಿ ತೋರಿಸಿ</string>
+    
+    <!-- FCM -->
+    <string name="notification_title">🚛 ಕಸದ ಗಾಡಿ ಹತ್ತಿರದಲ್ಲಿದೆ!</string>
+    <string name="notification_body">ದಯವಿಟ್ಟು ನಿಮ್ಮ ಕಸವನ್ನು ಹೊರತನ್ನಿ.</string>
+
+    <!-- Navigation & UI -->
+    <string name="reports">ವರದಿಗಳು</string>
+    <string name="my_location">ನನ್ನ ಸ್ಥಳ</string>
+    <string name="history">ಇತಿಹಾಸ</string>
+    <string name="menu">ಮೆನು</string>
+    <string name="sign_out">ಸೈನ್ ಔಟ್</string>
+    <string name="role_resident_upper">ನಿವಾಸಿ</string>
+    <string name="role_driver_upper">ಚಾಲಕ</string>
+    <string name="report_details">ವರದಿ ವಿವರಗಳು</string>
+    
+    <!-- Status Labels & Duty -->
+    <string name="status_on_duty">ಸ್ಥಿತಿ: ಕೆಲಸದಲ್ಲಿದ್ದಾರೆ</string>
+    <string name="status_off_duty">ಸ್ಥಿತಿ: ಕೆಲಸದಲ್ಲಿಲ್ಲ</string>
+    <string name="status_pending">ಬಾಕಿ ಇದೆ</string>
+    <string name="status_collected">ಸಂಗ್ರಹಿಸಲಾಗಿದೆ</string>
+    
+    <!-- System & Feedback -->
+    <string name="searching_location">ಸ್ಥಳವನ್ನು ಹುಡುಕಲಾಗುತ್ತಿದೆ...</string>
+    <string name="waiting_gps">ಜಿಪಿಎಸ್ ಸಿಗ್ನಲ್‌ಗಾಗಿ ಕಾಯಲಾಗುತ್ತಿದೆ...</string>
+    <string name="waste_truck">ಕಸದ ಗಾಡಿ</string>
+    <string name="your_assigned_driver">ನಿಮ್ಮ ಚಾಲಕ</string>
+    <string name="your_location">ನಿಮ್ಮ ಸ್ಥಳ</string>
+    <string name="location_coordinates">ಸ್ಥಳದ ನಿರ್ದೇಶಾಂಕಗಳು</string>
+    <string name="open_in_maps">ಗೂಗಲ್ ಮ್ಯಾಪ್ಸ್‌ನಲ್ಲಿ ತೆರೆಯಿರಿ</string>
+    <string name="back_to_history">ಇತಿಹಾಸಕ್ಕೆ ಹಿಂತಿರುಗಿ</string>
+    <string name="default_user_name">ನಿವಾಸಿ ಬಳಕೆದಾರ</string>
+    <string name="default_driver_name">ಚಾಲಕ ಬಳಕೆದಾರ</string>
+</resources>

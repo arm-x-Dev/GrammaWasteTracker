@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "997794834461",
+    "project_id": "gramawastetracker-271ff",
+    "storage_bucket": "gramawastetracker-271ff.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:997794834461:android:5f444ae3e959910c0ebef4",
+        "android_client_info": {
+          "package_name": "com.example.grammawastetracker"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjbVCQ_ABL9Pvm1mVwOuTrUtU7GK81Bc0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
