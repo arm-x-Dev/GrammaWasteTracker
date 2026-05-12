@@ -1,32 +1,64 @@
-# Gramma-Waste Tracker 🌲🚛
+# 🌲 Gramma-Waste Tracker 🚛
+### *Smart Waste Management for Rural Communities*
 
-A premium, real-time waste management and tracking solution designed for smart villages. This application bridges the gap between residents and waste collection services through a sleek, "Samsung-style" mobile interface.
-
-## ✨ Key Features
-
-- **🚛 Live Fleet Monitoring:** Residents can track the exact location of waste collection trucks in real-time.
-- **🔔 Proximity Alerts:** Automatic background notifications that alert residents when a truck is within 300 meters of their home.
-- **📍 Smart Garbage Reporting:** Residents can report blackspots or garbage overflow with photo proof and GPS coordinates.
-- **🌍 Multilingual Support:** Full support for **Kannada** and **English**, ensuring accessibility for all village residents.
-- **💎 Premium UI/UX:** Features a "Forest Glow" aesthetic with soft "Bleeding Light" effects, floating pill designs, and smooth micro-animations.
-- **🛡️ Proof of Collection:** Drivers can upload "After" photos to mark tasks as complete, ensuring transparency.
-
-## 🛠️ Tech Stack
-
-- **Language:** Kotlin
-- **UI Framework:** Android XML with custom Drawables (Forest Glow)
-- **Database:** Firebase Realtime Database
-- **Authentication:** Firebase Auth
-- **Maps:** OSMDroid (OpenStreetMap)
-- **Background Services:** Foreground Service for 24/7 proximity monitoring
-
-## 🎨 Design Philosophy
-
-The app uses a **Nature-Inspired Design System**:
-- **Primary Color:** Forest Green (#006D5B)
-- **Background Aura:** Soft organic mist using `BlurMaskFilter` for a premium, non-cluttered look.
-- **Pill UI:** Floating cards with `28dp` corner radius for a modern, tactile feel.
+Gramma-Waste Tracker is a comprehensive mobile solution designed to bring transparency and efficiency to waste collection in Gram Panchayats. Built with a focus on usability and real-time synchronization, it empowers both residents and collection authorities.
 
 ---
 
-*Developed as part of an 8th-semester internship project for smart village digitalization.*
+## 🚀 Getting Started
+
+### 📦 Installation
+1.  **Download the APK:** [Download GrammaWasteTracker.apk](./GrammaWasteTracker.apk)
+2.  **Enable Unknown Sources:** Go to your Android settings and allow installation from unknown sources.
+3.  **Install & Launch:** Open the app and sign in using your registered credentials.
+
+---
+
+## 👥 Application Modes
+
+The app features two distinct user experiences tailored to their roles:
+
+### 🏠 1. Resident Mode
+*   **📍 Live Tracking:** Monitor the location of waste collection trucks on a real-time map using OSMDroid.
+*   **🔔 Proximity Alerts:** Receive a high-priority notification and audio alert when a truck is within 300 meters.
+*   **📸 Smart Reporting:** Snap a photo and pinpoint the GPS location of uncollected garbage blackspots.
+*   **🌍 Multilingual Support:** Seamlessly toggle between **Kannada** and **English** for local accessibility.
+
+### 🚛 2. Driver/Operator Mode
+*   **🟢 Duty Toggle:** Broadcast live location to residents only when on duty.
+*   **📝 Task Feed:** View a real-time list of garbage reports submitted by the community.
+*   **✅ Collection Verification:** Mandatory "After" photo upload to verify task completion and ensure accountability.
+*   **📡 Background Sync:** Continuous location updates via a robust Android Foreground Service.
+
+---
+
+## 🛠️ Technical Stack
+
+*   **Language:** Kotlin 
+*   **Architecture:** MVVM (Model-View-ViewModel)
+*   **Real-time Engine:** Firebase Realtime Database
+*   **Identity:** Firebase Authentication
+*   **Maps:** OSMDroid (OpenStreetMap)
+*   **UI System:** Forest Glow (Material 3 + Custom Vector Graphics)
+
+---
+
+## 🎨 Design Philosophy
+The app uses a **"Nature-Inspired Design Language"**:
+*   **Primary Palette:** Forest Green (#006D5B) symbolizing cleanliness and growth.
+*   **Pill UI:** Modern floating elements with 28dp rounded corners for a premium, tactile feel.
+*   **Micro-Animations:** Fluid transitions that make the app feel alive and responsive.
+
+---
+
+## 👨‍💻 Development Team
+*   **Lead Developer:** Alok Muranal
+*   **University:** KLE Institute of Technology, Hubli
+*   **Project Context:** Final Year Internship Project
+
+---
+
+### 📥 Download the APK
+[**Download the latest version here**](./GrammaWasteTracker.apk)
+
+---
